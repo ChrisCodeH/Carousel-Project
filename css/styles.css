@@ -4,8 +4,9 @@ body {
 }
 
 .carousel {
-  width: 200%;
-  height: 540px;
+  width: 300vw;
+  height: 100vh;
+  min-height: 500px;
   display:flex;
 }
 
@@ -14,6 +15,8 @@ body {
   display: block;
   width: 100%;
   height: inherit;
+  display: flex;
+  justify-content: center;
 }
 
 .carousel-block-2 {
@@ -21,4 +24,24 @@ body {
   display: block;
   width: 100%;
   height: inherit;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-block-3 {
+  background-color: darkred;
+  display: block;
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+}
+
+.text-panel {
+  height: 480px;
+  width: 480px;
+  opacity: 0.5;
+  display: block;
+  background-color: white;
+  align-self: center;
 }
