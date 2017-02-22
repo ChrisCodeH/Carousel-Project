@@ -10,31 +10,24 @@ body {
   display:flex;
 }
 
-.carousel-block-1 {
-  background-color: #aaa;
+.carousel-block-1, .carousel-block-2, .carousel-block-3 {
   display: block;
   width: 100%;
   height: inherit;
   display: flex;
   justify-content: center;
+}
+
+.carousel-block-1 {
+  background-color: #aaa;
 }
 
 .carousel-block-2 {
   background-color: royalblue;
-  display: block;
-  width: 100%;
-  height: inherit;
-  display: flex;
-  justify-content: center;
 }
 
 .carousel-block-3 {
   background-color: darkred;
-  display: block;
-  width: 100%;
-  height: inherit;
-  display: flex;
-  justify-content: center;
 }
 
 .text-panel {
