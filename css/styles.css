@@ -32,14 +32,17 @@ img {
 
 .carousel-block-1 {
   background-color: #aaa;
+  background-image: url("../img/1.jpg");
 }
 
 .carousel-block-2 {
   background-color: royalblue;
+  background-image: url("../img/2.jpg");
 }
 
 .carousel-block-3 {
   background-color: darkred;
+  background-image: url("../img/3.jpg");
 }
 
 .text-panel {
